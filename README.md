@@ -10,7 +10,7 @@ Using the supplied LINK as collateral, the script borrows DAI from Aave. The amo
 
 
 ## Diagram Illustration
-
+![Workflow Diagram](illustration.png)
 
 ## Code Explanation
 The code is divided into several key functions, each handling a specific aspect of the process.
@@ -71,6 +71,7 @@ These parameters include the token addresses, fee, recipient, and the amount of 
     ```
 
 ## Example Output
+![Output](output.png)
 
 ## Conclusion
 This script demonstrates how to interact with multiple DeFi protocols in a single workflow, from token swaps to lending and borrowing. By modularizing the functions and following best practices for approval management and error handling, the script offers a robust foundation for more advanced DeFi operations.
